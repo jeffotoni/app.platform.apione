@@ -103,7 +103,7 @@ func main() {
 		w.Write(b)
 	})
 
-	println("Run Server", httpPort)
+	println("Run Server v0.0.1", httpPort)
 	http.ListenAndServe(httpPort, nil)
 
 }
